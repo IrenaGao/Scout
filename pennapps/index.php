@@ -5,7 +5,10 @@
         <script type="text/javascript" src="scripts/toggle.js"></script>
     </head>
     <header>
-        <a class="def" href="profile.php"><img src="images/backbutton.png" class="back" alt="Back Button"></a><div class="bk">Back to Profile</p></div>
+        <ul class="navbar">
+            <li class="li"><a href="index.php"><img src="images/account.png" class="account" alt="Account Pic"></a></li>
+            <li class="li"><a href="profile.php"><img src="images/faceprofile.png" class="account" alt="Face Profile"></a></li>
+        </ul>
         <img src="images/scoutlogo.png" class="logo" alt="Scout Logo">
     </header>
     <body>
@@ -28,7 +31,7 @@
             <div class="list-type1">
             <ul>
                 <p>Current:</p>
-                <li class="none"><img src="images/alert.png" onclick="showDiv()" class="alert" alt="Alert Button"><a class="curr">Sarah Grossman needs help!</a></li>
+                <li class="none"><img src="images/alert.png" onclick="showDiv()" class="alert" alt="Alert Button"><a class="curr">Samik Shrotriya needs help!</a></li>
             </ul>
             </div>
         </div>
@@ -37,7 +40,8 @@
         </div>
         <div class="rect2">
         <div id="hidden">
-            <div class="p">Name: <u>Sarah Grossman</u></div>
+            <div class="p">Name: <u>Samik Shrotriya</u></div>
+            <div class="p">Topic: <u>CSS</u></div>
             <div class="p">Location: <u>Phillips 223</u></div>
             <div class="p">Questions? <u>How do you style a button using CSS?</u></div>
             <button class="button" onclick="showDiv2()" id="card">Chat</button>

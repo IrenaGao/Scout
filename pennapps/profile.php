@@ -5,7 +5,10 @@
             <script type="text/javascript" src="scripts/toggle.js"></script>
         </head>
         <header>
-            <a href="index.php"><img src="images/backbutton.png" class="back" class="def" alt="Back Button"></a><div class="bk">Back Home</p></div>
+            <ul class="navbar">
+                <li class="li"><a href="index.php"><img src="images/account.png" class="account" alt="Account Pic"></a></li>
+                <li class="li"><a href="profile.php"><img src="images/faceprofile.png" class="account" alt="Face Profile"></a></li>
+            </ul>
             <img src="images/scoutlogo.png" class="logo" alt="Scout Logo">
         </header>
         <body>
@@ -29,9 +32,9 @@
                 <input type=text></div>
                 <div class="p">Topic:
                 <input type=text></div>
-                <div class="p">Questions? 
+                <div class="p">Question:
                 <input type=text></div>
-                <button type="submit" name="request" class="a">Request Help</button>
+                <button type="submit" name="request" class="a">Add Issue</button>
             </form>
 
             <?php
